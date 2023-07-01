@@ -12,11 +12,13 @@ export default function Home() {
     <div className='snap-y snap-mandatory overflow-scroll z-0 h-screen '>
       <Header />
 
-      <section id='hero' className='snap-center'>
+      <section id='hero' className='snap-start'>
         <Hero />
       </section>
 
-      <About />
+      <section id='about' className='snap-center'>
+        <About />
+      </section>
 
       <Experience />
 
