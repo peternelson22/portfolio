@@ -9,24 +9,22 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className=''>
-      {/* Header */}
+    <div className='snap-y snap-mandatory overflow-scroll z-0 h-screen '>
       <Header />
 
-      {/* Hero */}
-      <section id='hero'>
+      <section id='hero' className='snap-center'>
         <Hero />
       </section>
-      {/* About */}
+
       <About />
-      {/* Experience */}
+
       <Experience />
-      {/* Skills */}
+
       <Skills />
-      {/* Projects */}
+
       <Projects />
-      {/* Contact Me */}
+
       <Contact />
-    </main>
+    </div>
   );
 }
